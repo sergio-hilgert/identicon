@@ -1,21 +1,20 @@
 # Identicon
 
-**TODO: Add description**
+Elixir project to generate a image based on a string, just like GitHub profile icons.
 
-## Installation
+## How to use
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `identicon` to your list of dependencies in `mix.exs`:
+Install the dependencies using: `mix deps.get`
+
+Run the iex with the command: `iex -S mix`
+
+Inside the iex type
 
 ```elixir
-def deps do
-  [
-    {:identicon, "~> 0.1.0"}
-  ]
-end
+iex> Identicon.main("your_name")
 ```
+![Identicon](your_name.png)
+Format: ![Alt Text](url)
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/identicon](https://hexdocs.pm/identicon).
+And the image will be saved inside the aplication folder with the name you gave to it. It aways generate the same image for the same string.
 
