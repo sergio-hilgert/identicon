@@ -14,7 +14,5 @@ Inside the iex type
 iex> Identicon.main("your_name")
 ```
 ![Identicon](your_name.png)
-Format: ![Alt Text](url)
 
-And the image will be saved inside the aplication folder with the name you gave to it. It aways generate the same image for the same string.
-
+And the image will be saved inside the aplication folder with the name you gave to it.
